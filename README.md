@@ -1,6 +1,6 @@
-# String.h
+# CString
 
-This repository contains a collection of string manipulation functions implemented in C. These functions provide various operations on strings, such as copying, concatenating, comparing, searching, and more. They are designed to mimic some of the standard string functions available in the C library.
+This repository contains a collection of string manipulation functions implemented in C. These functions provide various operations on strings, such as copying, concatenating, comparing, searching, and more. They are designed to mimic some of the standard string functions available in the "string.h" C library.
 
 ## Implemented functions
 
