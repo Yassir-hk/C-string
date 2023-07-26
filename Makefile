@@ -2,14 +2,14 @@ CFLAGS = -Wall
 
 all: out
 
-out: main.o
+out: test.o
 	@echo "Creation of the executable file"
-	gcc $(CFLAGS) main.o -o out
+	gcc $(CFLAGS) test.o -o out
 
-main.o: main.c
+test.o: test.c
 	@echo "Compiling the source file"
-	gcc $(CFLAGS) -c main.c
+	gcc $(CFLAGS) -c test.c
 
 clean:
 	@echo "Removing executable file and .o file"
-	rm main.o out
+	rm test.o out
